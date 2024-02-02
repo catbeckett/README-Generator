@@ -16,32 +16,32 @@ function createQuestions() {
         },
         {
             type: "input",
-            message: "Installation instructions:",
+            message: "What are the installation instructions?",
             name: "installation"
         },
         {
             type: "input",
-            message: "Usage information:",
+            message: "Please provide usage information:",
             name: "usage"
         },
         {
             type: "input",
-            message: "Contribution guidelines:",
+            message: "Please provide contribution guidelines:",
             name: "contribution"
         },
         {
             type: "input",
-            message: "Test instructions:",
+            message: "Please provide test instructions:",
             name: "tests"
         },
         {
             type: "input",
-            message: "GitHub username:",
+            message: "What is you GitHub username?",
             name: "github"
         },
         {
             type: "input",
-            message: "Email address:",
+            message: "What is your email address?",
             name: "email"
         }
     ];
@@ -64,10 +64,12 @@ async function main() {
 
 async function writeToFile(filename, markdownContent) {
     try {
-        await fs.writeFile(filename, markdownContent);
+        await fs.writeFile("samples/sample_README.md", markdownContent);
+        console.log("Sample README generated successfully.");
     } catch (err) {
-        console.log("Error writing to file", err);
+        console.error("Error writing to file:", err);
     }
 }
+
 
 main();
