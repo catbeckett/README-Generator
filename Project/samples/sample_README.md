@@ -1,9 +1,9 @@
 
-# README Generator
+# The README Generator
 
 ## Description
 
-This project is a command-line tool that automates the creation of professional README.md files for GitHub repositories based on user input.
+The README Generator is a command-line application built with node.js that generates a professional README.md file based on user input.
 
 ## Table of Contents
 
@@ -15,19 +15,19 @@ This project is a command-line tool that automates the creation of professional 
 
 ## Installation
 
-Install dependencies by running npm install in the terminal. Run the application using the command node index.js
+To install the README Generator, clone the repository, navigate to the root directory of the project, run `npm install` to install the required dependancies. 
 
 ## Usage
 
-Run node index.js in your terminal, answer the prompted questions about your project, and a README.md file will be generated in your project's root directory with the provided information.
+To use the README Generator, open your terminal, navigate to your root directory, run `node index.js` to start the app, follow the prompts to enter infromation 
 
 ## Contribution
 
-Contributions to this project are welcome! Please fork the repository, create a new branch for your feature, make your changes, test your changes thoroughly, and finally create a pull request with a clear description of your changes.
+Contributions are welcome! Fork the repository, create a new branch, make your contributions, test your changes and submit a pull request. 
 
 ## Tests
 
-Install dependencies: npm install, run: node index.js, verify README content, then finally test table of contents links
+To test the README Generator, open your terminal, navigate to the root director of the project and run `npm test` to run the test suite.
 
 ## Questions
 
