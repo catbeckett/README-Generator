@@ -3,7 +3,7 @@
 ## Description
 
 The README Generator is a command-line application built with Node.js that dynamically generates a professional README.md file based on user input. It simplifies the process of creating a high-quality README by automating the generation of sections such as Description, Installation, Usage, Contribution, Tests, and Questions. With the README Generator, developers can quickly create informative and well-structured README files, saving time and ensuring consistency across projects.
-Please see a recording of the application in use here: https://app.screencastify.com/v3/watch/j8lZg6cWCFhx5nF5L53z 
+Please see a recording of the application in use here:  https://app.screencastify.com/v3/watch/ESozFglbZKIOqv92eqHm
 
 ## Table of Contents
 
