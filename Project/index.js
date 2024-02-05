@@ -36,13 +36,19 @@ function createQuestions() {
         },
         {
             type: "input",
-            message: "What is you GitHub username?",
+            message: "What is your GitHub username?",
             name: "github"
         },
         {
             type: "input",
             message: "What is your email address?",
             name: "email"
+        },
+        {
+            type: "list",
+            message: "Choose a license for your application:",
+            name: "license",
+            choices: ["MIT", "Apache-2.0", "GPL-3.0", "BSD-3-Clause", "None"]
         }
     ];
     return questions;
@@ -70,6 +76,5 @@ async function writeToFile(filename, markdownContent) {
         console.error("Error writing to file:", err);
     }
 }
-
 
 main();

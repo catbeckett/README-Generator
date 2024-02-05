@@ -1,9 +1,11 @@
 
-# The README Generator
+# 1
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
 
-The README Generator is a command-line application built with node.js that generates a professional README.md file based on user input.
+2
 
 ## Table of Contents
 
@@ -12,25 +14,30 @@ The README Generator is a command-line application built with node.js that gener
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 
-To install the README Generator, clone the repository, navigate to the root directory of the project, run `npm install` to install the required dependancies. 
+3
 
 ## Usage
 
-To use the README Generator, open your terminal, navigate to your root directory, run `node index.js` to start the app, follow the prompts to enter infromation 
+4
 
 ## Contribution
 
-Contributions are welcome! Fork the repository, create a new branch, make your contributions, test your changes and submit a pull request. 
+5
 
 ## Tests
 
-To test the README Generator, open your terminal, navigate to the root director of the project and run `npm test` to run the test suite.
+6
 
 ## Questions
 
 For any questions or feedback, feel free to contact me:
-- GitHub: [catbeckett](https://github.com/catbeckett)
-- Email: catejb89@gmail.com
+- GitHub: [7](https://github.com/7)
+- Email: 8
+
+## License
+
+This application is covered under the [MIT License](https://opensource.org/licenses/MIT). 
